@@ -15,6 +15,7 @@ body {
 }
 .logo {
   color: rgb(0, 0, 0);
+  text-decoration: none;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -51,8 +52,8 @@ body {
 .site-nav:focus {
   color: rgb(117, 117, 117);
 }
-.adress-nav .email:hover,
-.adress-nav .email:focus {
+.adress-nav :hover,
+.adress-nav :focus {
   color: rgb(117, 117, 117);
 }
 .hero {
@@ -68,6 +69,7 @@ body {
   text-transform: uppercase;
 }
 .hero-button {
+  cursor: pointer;
   color: rgb(255, 255, 255);
   background-color: rgb(32, 148, 243);
   font-family: inherit;
@@ -78,7 +80,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  position: absolute;
 }
 .section-title {
   color: rgb(33, 33, 33);
@@ -101,6 +102,7 @@ body {
 }
 .people-list .title {
   color: rgb(33, 33, 33);
+  list-style: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -109,16 +111,22 @@ body {
 .adress {
   background-color: rgb(48, 49, 59);
 }
+.adress .logo a {
+  text-decoration: none;
+}
 .adress-title a {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  list-style: none;
   font-size: 14px;
   line-height: 1.71;
 }
 .office a {
   color: rgb(255, 255, 255);
 }
-.adress-title {
-  list-style: none;
+.adress-title :hover,
+.adress-title:focus {
+  color: var(--accent-text-color);
 }
 .portfolio .portfolio-title {
   color: rgb(33, 33, 33);
@@ -138,6 +146,9 @@ body {
   font-size: 16px;
   line-height: 1.63;
   text-align: center;
+}
+.nav-list {
+  cursor: pointer;
 }
 .current-button {
   background-color: var(--accent-text-color);
