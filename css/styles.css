@@ -30,6 +30,7 @@ body {
 }
 .site-nav a {
   color: rgb(33, 33, 33);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,6 +41,7 @@ body {
 }
 .adress-nav a {
   color: rgb(33, 33, 33);
+  text-decoration: none;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
