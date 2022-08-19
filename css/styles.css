@@ -1,0 +1,146 @@
+:root {
+  --primary-text-color: rgb(117, 117, 117);
+  --accent-text-color: rgb(32, 148, 243);
+  --title-text-color: rgb(33, 33, 33);
+  --hero-text-color: rgb(255, 255, 255);
+}
+body {
+  background-color: rgb(245, 245, 245);
+  color: rgb(117, 117, 117);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  color: rgb(0, 0, 0);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo a:hover,
+.logo a:focus {
+  color: rgb(0, 0, 0);
+}
+.logo .colortext {
+  color: rgb(32, 148, 243);
+}
+.site-nav a {
+  color: rgb(33, 33, 33);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link-current {
+  color: rgb(32, 148, 243);
+}
+.adress-nav a {
+  color: rgb(33, 33, 33);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.adress-nav .email {
+  color: rgb(32, 148, 243);
+}
+.site-nav :hover,
+.site-nav:focus {
+  color: rgb(117, 117, 117);
+}
+.adress-nav .email:hover,
+.adress-nav .email:focus {
+  color: rgb(117, 117, 117);
+}
+.hero {
+  background-color: rgb(48, 49, 59);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: rgb(255, 255, 255);
+}
+.hero-button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(32, 148, 243);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  position: absolute;
+  width: 216px;
+  height: 50px;
+}
+.section-title {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+.features-list .title {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.features-list .title-explanation {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.people-list .title {
+  color: rgb(33, 33, 33);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.adress {
+  background-color: rgb(48, 49, 59);
+}
+.adress-title a {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.office a {
+  color: rgb(255, 255, 255);
+}
+.adress-title {
+  list-style: none;
+}
+.portfolio .portfolio-title {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio .portfolio-title-explanation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.nav-list {
+  list-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+.current-button {
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
+}
