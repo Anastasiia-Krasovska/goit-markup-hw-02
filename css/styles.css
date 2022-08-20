@@ -9,7 +9,7 @@
 }
 body {
   background-color: var(--hero-text-color);
-  color: var(--hero-text-color);
+  color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
@@ -100,7 +100,7 @@ body {
 }
 .features-list .title-explanation {
   font-weight: 400;
-
+  color: var(--primary-text-color);
   line-height: 1.71;
 }
 .people-list .title {
