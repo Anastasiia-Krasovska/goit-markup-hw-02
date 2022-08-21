@@ -94,7 +94,7 @@ body {
 .features-list .title {
   color: var(--title-text-color);
   font-weight: 700;
-
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
@@ -111,11 +111,21 @@ body {
   line-height: 1.19;
   text-align: center;
 }
+.people-list .title-explanation {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
 .adress {
   background-color: var(--background-color);
 }
 .adress .logo a {
   text-decoration: none;
+}
+.adress .logo {
+  color: var(--hero-text-color);
 }
 .adress-title a {
   color: var(--additional-color);
@@ -144,6 +154,10 @@ body {
   font-size: 16px;
   line-height: 1.87;
 }
+.nav-list {
+  list-style: none;
+  text-align: center;
+}
 .nav-list .other-button:hover,
 .nav-list .other-button:focus {
   background-color: var(--accent-text-color);
@@ -151,18 +165,21 @@ body {
 }
 .nav-list .other-button {
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--button-color);
   color: var(--title-text-color);
 }
-.nav-list {
-  list-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  text-align: center;
-}
 .current-button {
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--button-color);
   color: var(--title-text-color);
 }
