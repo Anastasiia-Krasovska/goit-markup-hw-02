@@ -146,8 +146,8 @@ body {
 }
 .nav-list .other-button:hover,
 .nav-list .other-button:focus {
-  background-color: var(--background-color);
-  color: var(--accent-text-color);
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
 }
 .nav-list .other-button {
   background-color: var(--button-color);
@@ -164,11 +164,11 @@ body {
   cursor: pointer;
 }
 .current-button {
-  background-color: var(--accent-text-color);
-  color: var(--hero-text-color);
+  background-color: var(--button-color);
+  color: var(--title-text-color);
 }
 .current-button:hover,
 .current-button:focus {
-  background-color: var(--background-color);
-  color: var(--accent-text-color);
+  background-color: var(--accent-text-color);
+  color: var(--hero-text-color);
 }
