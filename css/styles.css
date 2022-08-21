@@ -150,6 +150,7 @@ body {
   color: var(--hero-text-color);
 }
 .nav-list .other-button {
+  cursor: pointer;
   background-color: var(--button-color);
   color: var(--title-text-color);
 }
@@ -160,10 +161,8 @@ body {
   line-height: 1.63;
   text-align: center;
 }
-.nav-list {
-  cursor: pointer;
-}
 .current-button {
+  cursor: pointer;
   background-color: var(--button-color);
   color: var(--title-text-color);
 }
